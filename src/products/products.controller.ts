@@ -1,3 +1,4 @@
+// @ts-ignore: ensure @nestjs/common is installed (npm i @nestjs/common @nestjs/core rxjs reflect-metadata)
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
